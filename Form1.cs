@@ -13,11 +13,13 @@ namespace Figuras
         public Form1()
         {
             InitializeComponent();
-            figuras = new Figura[3] 
+            figuras = new Figura[5] 
             {
-                new Circulo(30),
-                new Rectangulo(50,50),
-                new Cuadrado(70),
+                new Circulo(10),
+                new Rectangulo(20,30),
+                new Cuadrado(40),
+                new Isosceles(50,60),
+                new Equilatero(70)
             };
 
         }
@@ -32,7 +34,7 @@ namespace Figuras
                 int g = rnd.Next(0, 90);
                 int b = rnd.Next(0, 90);
                 Pen pen = new Pen(Color.FromArgb(r, g, b));
-                figuras[i].Dibujar(pen, gr, i * 100, 50);
+                figuras[i].Dibujar(pen, gr, i * 70, 50);
             }
 
         }

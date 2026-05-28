@@ -62,4 +62,42 @@ namespace Figuras
             graphics.DrawEllipse(pen,x,y, radio, radio);
         }
     }
+
+    public class Triangulo : Figura
+    {
+        protected int alto;
+        protected int ancho;
+        
+        // Constructor
+        public Triangulo(int ancho, int alto) 
+        {
+            this.ancho = ancho;
+            this.alto = alto;
+        }
+        public override void Dibujar(Pen pen, Graphics graphics, int x, int y)
+        {
+            Point[] points = new Point[3]
+            { 
+                new Point(x + ancho/2, y), 
+                new Point(x, y + alto), 
+                new Point(x + ancho, y + alto)
+            };
+            // DrawPolygon dibuja un poligono dado un conjunto de puntos y un lapiz
+            graphics.DrawPolygon(pen, points);
+        }
+    }
+
+    public class Isosceles : Triangulo
+    {
+        public Isosceles(int ancho, int alto) : base(ancho, alto)
+        {
+        }
+    }
+
+    public class Equilatero : Triangulo
+    {
+        public Equilatero(int lado) : base(lado, lado)
+        {
+        }
+    }
 }
