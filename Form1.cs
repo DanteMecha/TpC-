@@ -24,11 +24,14 @@ namespace Figuras
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Random rnd = new Random();
             Graphics gr = pictureBox1.CreateGraphics();
-            Color[] colores = new Color[] { Color.Red, Color.Green, Color.Blue };
             for (int i = 0; i < figuras.Length; i++)
             {
-                Pen pen = new Pen(colores[i]);
+                int r = rnd.Next(0, 180);
+                int g = rnd.Next(0, 180);
+                int b = rnd.Next(0, 180);
+                Pen pen = new Pen(Color.fromArgb(r, g, b));
                 figuras[i].Dibujar(pen, gr, i * 100, 50);
             }
 
