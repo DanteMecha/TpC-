@@ -1,0 +1,10 @@
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/obj/x86/Debug/Figuras.Form1.resources
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/obj/x86/Debug/ExMetodosVirtuales.Properties.Resources.resources
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/bin/Debug/ExMetodosVirtuales.exe.config
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/bin/Debug/ExMetodosVirtuales.exe.mdb
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/bin/Debug/ExMetodosVirtuales.pdb
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/bin/Debug/ExMetodosVirtuales.exe
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/obj/x86/Debug/ExMetodosVirtuales.exe
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/obj/x86/Debug/ExMetodosVirtuales.exe.mdb
+/home/dante/programacion/Algoritmos1/ExMetodosVirtuales/ExMetodosVirtuales/obj/x86/Debug/ExMetodosVirtuales.pdb
